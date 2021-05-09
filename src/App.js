@@ -1,9 +1,9 @@
 import React from 'react'
 
+import {Upload} from 'components/Upload'
+
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <Upload />
   )
 }
