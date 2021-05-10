@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-import {ComparisonContainer, After, Slider, Section} from 'components/StyledComponents'
+import {ComparisonContainer, After, Slider} from 'components/StyledComponents'
 
 export const Compare = (images) => {
     const [sliderValue, setSliderValue] = useState("50")
