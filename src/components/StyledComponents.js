@@ -9,15 +9,28 @@ export const Container = styled.div `
     align-items: center;
     background-color: black;
 `
+export const Footer = styled.footer`
+position: absolute;
+bottom: 0;
+font-size: 12px;
+margin: 10px;
+`
 
 // FILE UPLOAD
 
 export const Form = styled.form`
     display: flex;
     justify-content: center;
-    /* flex-direction: row; */
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    `
+export const UploadContainer = styled.div`
+    min-width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 50%;
     `
 
 export const Label = styled.label`
@@ -28,7 +41,7 @@ export const Label = styled.label`
     align-items: center;
     margin: 10px;
     padding: 6px 12px;
-    width: 45%;
+    width: 40%;
     height: 200px;
     background-image: ${props => props.url ? `url(${props.url})`: ""};
     background-size: cover;
